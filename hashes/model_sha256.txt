@@ -1,0 +1,2 @@
+117e09e37cc4df2a52f2ef347bcbcfec50f114b817e3c213efe147ac41cf8a28  /home/nishchay/projects/RT-DETR/rtdetrv2_pytorch/output/traffic_nature_13_rtdetrv2_s_native640/best.pth
+b6563a57c084b3cdd64fd20481625720af1209ebfc0345f5e193c4127062c9a4  /home/nishchay/projects/YOLOX/YOLOX_outputs/yolox_m_traffic_nature_13_full/best_ckpt_model_only.pth

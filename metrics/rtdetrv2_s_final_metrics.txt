@@ -1,0 +1,34 @@
+MODEL: RT-DETRv2-S
+STATUS: FINAL BEST-CHECKPOINT EVALUATION
+
+Dataset: traffic_nature_13
+Classes: 13
+Input: 640x640 native fixed resize
+Batch size: 16
+Training epochs: 120
+Best epoch: 22
+Checkpoint: output/traffic_nature_13_rtdetrv2_s_native640/best.pth
+
+Validation images: 5364
+Validation boxes: 17782
+
+COCO bbox metrics:
+mAP50:95 = 0.517
+AP50     = 0.707
+AP75     = 0.547
+AP_small = 0.294
+AP_med   = 0.540
+AP_large = 0.729
+
+AR@1     = 0.367
+AR@10    = 0.636
+AR@100   = 0.716
+AR_small = 0.559
+AR_med   = 0.750
+AR_large = 0.888
+
+AR50     = 0.936
+AR75     = 0.763
+
+Final epoch 119 mAP50:95 = 0.492
+Model selection policy: best validation checkpoint.

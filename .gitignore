@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# Datasets
+data/
+dataset/
+datasets/
+train2017/
+val2017/
+test2017/
+images/
+
+# Training outputs
+YOLOX_outputs/
+output/
+runs/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.cache

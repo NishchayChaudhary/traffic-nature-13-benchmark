@@ -1,0 +1,56 @@
+{
+  "benchmark_status": "interim_13_class",
+  "num_classes": 13,
+
+  "final_classes": [
+    {"id": 0, "name": "person"},
+    {"id": 1, "name": "car"},
+    {"id": 2, "name": "dog"},
+    {"id": 3, "name": "cat"},
+    {"id": 4, "name": "bird"},
+    {"id": 5, "name": "cow"},
+    {"id": 6, "name": "bus"},
+    {"id": 7, "name": "truck"},
+    {"id": 8, "name": "motorcycle"},
+    {"id": 9, "name": "bicycle"},
+    {"id": 10, "name": "traffic_light"},
+    {"id": 11, "name": "stop_sign"},
+    {"id": 12, "name": "flower"}
+  ],
+
+  "source_mappings": {
+    "coco_2017": {
+      "person": "person",
+      "car": "car",
+      "dog": "dog",
+      "cat": "cat",
+      "bird": "bird",
+      "cow": "cow",
+      "bus": "bus",
+      "truck": "truck",
+      "motorcycle": "motorcycle",
+      "bicycle": "bicycle",
+      "traffic light": "traffic_light",
+      "stop sign": "stop_sign"
+    },
+
+    "roboflow_flower_v2": {
+      "daisy": "flower",
+      "dandelion": "flower"
+    }
+  },
+
+  "deferred_classes": {
+    "tree": {
+      "status": "DEFERRED",
+      "reason": "No audited source currently satisfies preprocessing and annotation-semantic requirements."
+    }
+  },
+
+  "annotation_policy": {
+    "canonical_format": "COCO JSON",
+    "preserve_all_target_annotations_in_selected_images": true,
+    "preserve_original_source_class_in_manifest": true,
+    "raw_source_files_modified": false
+  }
+}
