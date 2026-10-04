@@ -7,7 +7,10 @@ A controlled transfer-learning benchmark comparing a transformer-based detector
 > The original project targeted 14 classes. Tree is currently deferred, so
 > the benchmark reported here contains 13 classes.
 
+## Classes
 
+person, car, dog, cat, bird, cow, bus, truck, motorcycle, bicycle,
+traffic_light, stop_sign, flower
 
 ## Dataset
 
