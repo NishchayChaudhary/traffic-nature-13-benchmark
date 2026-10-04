@@ -87,3 +87,18 @@ Model checkpoints and datasets are not stored directly in this repository.
 The unified dataset uses COCO 2017 for the shared object categories and a
 Roboflow flower dataset for the flower category. See `audit/source_license_table.md`
 for source and licensing information.
+
+## Result Visualizations
+
+Full slide deck: [benchmark-results.pdf](assets/benchmark-results.pdf)
+
+![Overall performance](assets/slide-02.png)
+![Accuracy vs speed](assets/slide-03.png)
+![AP by object size](assets/slide-04.png)
+![Per-class gap](assets/slide-05.png)
+![Per-class AP](assets/slide-06.png)
+![Training dynamics](assets/slide-07.png)
+![Parameters](assets/slide-08.png)
+![FP16 speed](assets/slide-09.png)
+![FP32 speed](assets/slide-10.png)
+![CUDA memory](assets/slide-11.png)
